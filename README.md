@@ -1,2 +1,0 @@
-# quanta
-Time management app
