@@ -1,10 +1,11 @@
-export type RootStackParamList = {
-  Main: undefined;
+export type MainTabParamList = {
+  Insights: undefined;
+  Wallet: undefined;
   Settings: undefined;
+  Categories: undefined;
 };
 
-export type MainTabParamList = {
-  Personal: undefined;
-  Workspace: undefined;
-  Stats: undefined;
-}; 
+export type RootStackParamList = {
+  Main: undefined;
+  AddApp: undefined;
+};  
